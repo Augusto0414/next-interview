@@ -2,6 +2,7 @@
 
 import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 import { navbarData } from "../navbar.data";
 
@@ -34,14 +35,14 @@ export function NavbarMovile() {
 
           <nav className="flex flex-col gap-1 px-4 py-4">
             {navbarData.map((item) => (
-              <a
+              <Link
                 key={item.label}
                 href={item.href}
                 onClick={() => setOpen(false)}
                 className="flex items-center rounded-lg px-4 py-3 text-sm font-medium text-white/60 transition-colors duration-200 hover:bg-white/6 hover:text-white"
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </nav>
         </SheetContent>
