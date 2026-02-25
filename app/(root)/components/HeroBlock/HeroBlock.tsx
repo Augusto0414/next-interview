@@ -12,7 +12,7 @@ export const HeroBlock = () => {
       </div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-2xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+        <h1 className="text-5xl sm:text-5xl lg:text-6xl font-bold leading-tight">
           <TypeAnimation
             sequence={[
               "Entrevistas impulsadas por Inteligencia Artificial",
