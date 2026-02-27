@@ -1,3 +1,4 @@
+import { Cta } from "./components/Cta";
 import { HeroBlock } from "./components/HeroBlock";
 import { HowItWork } from "./components/HowItWork";
 import { Navbar } from "./components/Navbar";
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroBlock />
       <HowItWork />
       <Pricing />
+      <Cta />
     </div>
   );
 }
