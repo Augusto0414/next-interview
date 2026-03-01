@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Pricing } from "./components/Pricing";
 export default function Home() {
   return (
-    <div className="bg-[#040406] min-h-screen w-full">
+    <div className="bg-[#040406] min-h-screen w-full flex flex-col gap-20">
       <Navbar />
       <HeroBlock />
       <HowItWork />

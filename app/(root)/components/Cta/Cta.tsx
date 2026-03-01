@@ -4,7 +4,7 @@ import { CTASection } from "./CTASection/CTASection";
 
 export const Cta = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center mb-20">
       <CTASection />
       <Button className="mt-6 bg-[#007BFF] hover:bg-[#007BFF]/90 text-white px-6 py-5 cursor-pointer">
         Comenzar ahora
